@@ -1,0 +1,320 @@
+# memory map file, output by NYASM 2.42 [Build: 240221.00] linker.
+#
+# address start from 0 is ROM
+# address start from 20000000 is RAM (R-page)
+# address start from 20800000 is RAM (F-page)
+# address start from 21000000 is RAM (S-page)
+# address start from 21800000 is RAM (T-page)
+# address = 0xFFFFFFFF means that there is no space to allocate.
+#
+
+Module list:
+------------
+main.o:
+    .debug_line          offset:0x0        size:0x387 (903)
+    .debug_info          offset:0x0        size:0x269 (617)
+    .debug_abbrev        offset:0x0        size:0x33 (51)
+    .debug_ranges        offset:0x0        size:0xc8 (200)
+    .debug_aranges       offset:0x0        size:0xd0 (208)
+    share_bank           offset:0x20000010 size:0x1
+    share_bank           offset:0x20000011 size:0x1
+    share_bank           offset:0x20000012 size:0x1
+    share_bank           offset:0x20000013 size:0x1
+    share_bank           offset:0x20000014 size:0x1
+    uninit               offset:0x20000015 size:0x1
+    uninit               offset:0x20000016 size:0x1
+    uninit               offset:0x20000017 size:0x1
+    uninit               offset:0x20000018 size:0x1
+    uninit               offset:0x20000019 size:0x1
+    uninit               offset:0x2000001a size:0x1
+    uninit               offset:0x2000003f size:0x1
+    uninit               offset:0x2000001b size:0x1
+    uninit               offset:0x2000001c size:0x1
+    uninit               offset:0x2000001d size:0x1
+    uninit               offset:0x2000001e size:0x1
+    .text                offset:0x0        size:0x1
+    .text                offset:0x8        size:0x1
+    code                 offset:0x9        size:0x26 (38)
+    code                 offset:0x2f       size:0x14 (20)
+    code                 offset:0x43       size:0x14 (20)
+    code                 offset:0x57       size:0xb (11)
+    code                 offset:0x62       size:0x8
+    code                 offset:0x6a       size:0x8
+
+NY8A051F.a:
+    .debug_line          offset:0x387      size:0x12e (302)
+    .debug_info          offset:0x269      size:0x2d (45)
+    .debug_abbrev        offset:0x33       size:0xf (15)
+    .debug_ranges        offset:0xc8       size:0x80 (128)
+    .debug_aranges       offset:0xd0       size:0x88 (136)
+    .text                offset:0x20000000 size:0x1
+    .text                offset:0x20000001 size:0x1
+    .text                offset:0x20000002 size:0x1
+    .text                offset:0x20000003 size:0x1
+    .text                offset:0x20000004 size:0x1
+    .text                offset:0x20000005 size:0x1
+    .text                offset:0x20000006 size:0x1
+    .text                offset:0x20000007 size:0x1
+    .text                offset:0x20000008 size:0x1
+    .text                offset:0x20000009 size:0x1
+    .text                offset:0x2000000a size:0x1
+    .text                offset:0x2000000b size:0x1
+    .text                offset:0x2000000c size:0x1
+    .text                offset:0x2000000d size:0x1
+    .text                offset:0x2000000e size:0x1
+    .text                offset:0x2000000f size:0x1
+    .text                offset:0x20800000 size:0x1
+    .text                offset:0x20800006 size:0x1
+    .text                offset:0x2080000a size:0x1
+    .text                offset:0x2080000c size:0x1
+    .text                offset:0x2080000f size:0x1
+    .text                offset:0x21000000 size:0x1
+    .text                offset:0x21000001 size:0x1
+    .text                offset:0x21000002 size:0x1
+    .text                offset:0x21000003 size:0x1
+    .text                offset:0x21000004 size:0x1
+    .text                offset:0x21000005 size:0x1
+    .text                offset:0x21000006 size:0x1
+    .text                offset:0x21000007 size:0x1
+    .text                offset:0x21000008 size:0x1
+    .text                offset:0x2100000f size:0x1
+
+libsdcc_small.a:
+
+small.19897.a:
+    .debug_line          offset:0x4b5      size:0x3c (60)
+    .debug_info          offset:0x296      size:0x2b (43)
+    .debug_abbrev        offset:0x42       size:0xf (15)
+    .debug_ranges        offset:0x148      size:0x8
+    .debug_aranges       offset:0x158      size:0x10 (16)
+    startup              offset:0x1        size:0x2
+
+cb_file:
+
+
+Segment list:
+Name                 Start      Size
+-----------------------------------
+.text                0x20000000 0x1
+.text                0x20000001 0x1
+.text                0x20000002 0x1
+.text                0x20000003 0x1
+.text                0x20000004 0x1
+.text                0x20000005 0x1
+.text                0x20000006 0x1
+.text                0x20000007 0x1
+.text                0x20000008 0x1
+.text                0x20000009 0x1
+.text                0x2000000a 0x1
+.text                0x2000000b 0x1
+.text                0x2000000c 0x1
+.text                0x2000000d 0x1
+.text                0x2000000e 0x1
+.text                0x2000000f 0x1
+share_bank           0x20000010 0x1
+share_bank           0x20000011 0x1
+share_bank           0x20000012 0x1
+share_bank           0x20000013 0x1
+share_bank           0x20000014 0x1
+uninit               0x20000015 0x1
+uninit               0x20000016 0x1
+uninit               0x20000017 0x1
+uninit               0x20000018 0x1
+uninit               0x20000019 0x1
+uninit               0x2000001a 0x1
+uninit               0x2000001b 0x1
+uninit               0x2000001c 0x1
+uninit               0x2000001d 0x1
+uninit               0x2000001e 0x1
+uninit               0x2000003f 0x1
+.text                0x20800000 0x1
+.text                0x20800006 0x1
+.text                0x2080000a 0x1
+.text                0x2080000c 0x1
+.text                0x2080000f 0x1
+.text                0x21000000 0x1
+.text                0x21000001 0x1
+.text                0x21000002 0x1
+.text                0x21000003 0x1
+.text                0x21000004 0x1
+.text                0x21000005 0x1
+.text                0x21000006 0x1
+.text                0x21000007 0x1
+.text                0x21000008 0x1
+.text                0x2100000f 0x1
+
+Symbol list by name:
+Name                      Value
+--------------------------------
+___cinit_load__           0x3
+___cinit_run__            0x3
+___cinit_size__           0x1
+___fs2schar               no used
+___fs2sint                no used
+___fs2slong               no used
+___fs2uchar               no used
+___fs2uint                no used
+___fs2ulong               no used
+___fsadd                  no used
+___fsdiv                  no used
+___fseq                   no used
+___fslt                   no used
+___fsmul                  no used
+___fsneq                  no used
+___fssub                  no used
+___math_temp_1            no used
+___math_temp_2            no used
+___math_temp_3            no used
+___math_temp_4            no used
+___math_temp_5            no used
+___math_temp_6            no used
+___math_temp_7            no used
+___math_temp_8            no used
+___math_temp_9            no used
+___schar2fs               no used
+___sint2fs                no used
+___slong2fs               no used
+___STK00                  0x20000014
+___STK01                  0x20000013
+___STK02                  no used
+___STK03                  no used
+___STK04                  no used
+___STK05                  no used
+___STK06                  no used
+___STK07                  no used
+___STK08                  no used
+___STK09                  no used
+___STK10                  no used
+___STK11                  no used
+___STK12                  no used
+___uchar2fs               no used
+___uint2fs                no used
+___ulong2fs               no used
+__checksum                0x72 (114)
+__CHECKSUM_ADDR__         0x72 (114)
+__codeptrget1             no used
+__divschar                no used
+__divsint                 no used
+__divslong                no used
+__divsuchar               no used
+__divsuint                no used
+__divsulong               no used
+__divuchar                no used
+__divuint                 no used
+__divulong                no used
+__divuschar               no used
+__divusint                no used
+__divuslong               no used
+__gptrget                 no used
+__gptrget1                no used
+__gptrget2                no used
+__gptrget3                no used
+__gptrget4                no used
+__gptrput                 no used
+__gptrput1                no used
+__gptrput2                no used
+__gptrput3                no used
+__gptrput4                no used
+__idata_total_size__      0x0
+__modschar                no used
+__modsint                 no used
+__modslong                no used
+__modsuchar               no used
+__modsuint                no used
+__modsulong               no used
+__moduchar                no used
+__moduint                 no used
+__modulong                no used
+__moduschar               no used
+__modusint                no used
+__moduslong               no used
+__mulchar                 no used
+__mulint                  no used
+__mullong                 no used
+__mulschar                no used
+__mulsuchar               no used
+__muluchar                no used
+__muluschar               no used
+__nyc_ny8_startup         0x1
+__reserved_sfr_0x0005     0x20000005
+__reserved_sfr_0x0007     0x20000007
+__reserved_sfr_0x000d     0x2000000d
+__share_bank_total_size__ 0x5
+__uninit_total_size__     0xb (11)
+_BODCON                   0x2080000c
+_BPHCON                   0x2000000c
+_BPHCONbits               0x2000000c
+_BPLCON                   0x2000000b
+_BPLCONbits               0x2000000b
+_BWUCON                   0x20000009
+_BWUCONbits               0x20000009
+_BZ1CR                    0x21000005
+_clear_ram                no used
+_Delay                    no used
+_flag1                    0x2000001a
+_FSR                      0x20000004
+_INDF                     0x20000000
+_Initialize_GPIO          0x6a (106)
+_Initialize_RAM           0x57 (87)
+_Initialize_Timer0        no used
+_Initialize_Timer1        0x62 (98)
+_int_time1                0x20000015
+_int_time2                no used
+_INTE                     0x2000000e
+_INTEbits                 0x2000000e
+_INTF                     0x2000000f
+_INTFbits                 0x2000000f
+_IOSTB                    0x20800006
+_IRCR                     0x21000006
+_isr                      0x9
+_key_cur                  0x20000016
+_key_down                 0x20000018
+_key_keep                 0x20000019
+_key_per                  0x20000017
+_long_key_work            no used
+_long_star                no used
+_long_time                no used
+_main                     0x2f (47)
+_multi_16b                no used
+_OSCCR                    0x2100000f
+_PCHBUF                   0x2000000a
+_PCL                      0x20000002
+_PCON                     0x20000008
+_PCON1                    0x2080000f
+_PCONbits                 0x20000008
+_PORTB                    0x20000006
+_PORTBbits                0x20000006
+_PS0CV                    0x2080000a
+_PS1CV                    0x21000004
+_PWM1DUTY                 0x21000003
+_read_14bit_rom           no used
+_Scan_key                 0x43 (67)
+_sleep_time               no used
+_Sleep_Work               no used
+_STATUS                   0x20000003
+_T0MD                     0x20800000
+_T1CR1                    0x21000001
+_T1CR2                    0x21000002
+_TBHD                     0x21000008
+_TBHP                     0x21000007
+_temp1                    0x2000003f
+_TMR_temp                 no used
+_TMR0                     0x20000001
+_TMR1                     0x21000000
+PSAVE                     0x20000010
+SSAVE                     0x20000011
+STK00                     0x20000014
+STK01                     0x20000013
+STK02                     no used
+STK03                     no used
+STK04                     no used
+STK05                     no used
+STK06                     no used
+STK07                     no used
+STK08                     no used
+STK09                     no used
+STK10                     no used
+STK11                     no used
+STK12                     no used
+WSAVE                     0x20000012
+

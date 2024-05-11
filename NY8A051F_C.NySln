@@ -1,0 +1,17 @@
+﻿
+Nyquest IDE Solution File, Format Version 1.00
+# NYIDE 5.31.0.3695
+Project("{608D5F73-6C2E-489F-8ED6-C0FBCCEB586F}") = "NY8A051F_C", "NY8A051F_C\NY8A051F_C.naprj", "{A66F08C6-5954-4E8B-BEF7-2DB4DE66B1E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any = Debug|Any
+		Release|Any = Release|Any
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A66F08C6-5954-4E8B-BEF7-2DB4DE66B1E1}.Debug|Any.Build.0 = Debug|Any
+		{A66F08C6-5954-4E8B-BEF7-2DB4DE66B1E1}.Debug|Any.ActiveCfg = Debug|Any
+		{A66F08C6-5954-4E8B-BEF7-2DB4DE66B1E1}.Release|Any.Build.0 = Release|Any
+		{A66F08C6-5954-4E8B-BEF7-2DB4DE66B1E1}.Release|Any.ActiveCfg = Release|Any
+	EndGlobalSection
+EndGlobal
